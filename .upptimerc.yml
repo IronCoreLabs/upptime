@@ -1,22 +1,28 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: IronCoreLabs
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-
+  - name: Web site
+    url: https://ironcorelabs.com/
+  - name: IronCore Identity service
+    url: https://api.ironcorelabs.com/api/health
+  - name: Admin Console
+    url: https://admin.ironcorelabs.com/api/health
+  - name: Config Broker
+    url: https://config.ironcorelabs.com/health
+  - name: Config Broker (static content)
+    url: https://config.ironcorelabs.com/static/manifest.json
+  - name: Cloaked Search demo
+    url: https://cloaked-search.ironcorelabs.com/wikipedia/_search
+  - name: Cloaked Search demo (backend search service)
+    url: https://search-service.ironcorelabs.com/wikipedia/_search?size=0
+  - name: SaaS Shield for S3 demo
+    url: https://saas-shield-for-s3-demo.ironcorelabs.com/healthz
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  cname: upptime.ironcorelabs.com
+  baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
