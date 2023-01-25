@@ -13,9 +13,9 @@ sites:
   - name: Config Broker (static content)
     url: https://config.ironcorelabs.com/static/manifest.json
   - name: Cloaked Search demo
-    url: https://cloaked-search.ironcorelabs.com/wikipedia/_search
+    url: https://cloaked-search.ironcorelabs.com/_cloaked_search/live
   - name: Cloaked Search demo (backend search service)
-    url: https://search-service.ironcorelabs.com/wikipedia/_search?size=0
+    url: https://search-service.ironcorelabs.com/wikipedia_v2/_search?size=0
   - name: SaaS Shield for S3 demo
     url: https://saas-shield-for-s3-demo.ironcorelabs.com/healthz
 status-website:
