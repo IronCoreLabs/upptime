@@ -11,13 +11,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 152,
-    "timeDay": 123,
-    "timeWeek": 129,
-    "timeMonth": 113,
+    "timeDay": 189,
+    "timeWeek": 138,
+    "timeMonth": 118,
     "timeYear": 146,
     "dailyMinutesDown": {
-      "2023-09-21": 9,
-      "2022-11-03": 9
+      "2023-09-21": 9
     }
   },
   {
@@ -32,9 +31,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 216,
-    "timeDay": 221,
-    "timeWeek": 218,
-    "timeMonth": 184,
+    "timeDay": 218,
+    "timeWeek": 213,
+    "timeMonth": 187,
     "timeYear": 218,
     "dailyMinutesDown": {
       "2023-09-20": 9,
@@ -56,10 +55,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 171,
-    "timeDay": 218,
-    "timeWeek": 182,
-    "timeMonth": 168,
+    "time": 172,
+    "timeDay": 216,
+    "timeWeek": 181,
+    "timeMonth": 171,
     "timeYear": 171,
     "dailyMinutesDown": {
       "2023-03-26": 13
@@ -77,15 +76,14 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 157,
-    "timeDay": 173,
-    "timeWeek": 173,
-    "timeMonth": 147,
+    "timeDay": 183,
+    "timeWeek": 178,
+    "timeMonth": 149,
     "timeYear": 156,
     "dailyMinutesDown": {
       "2023-08-15": 6,
       "2023-07-18": 8,
-      "2023-03-26": 13,
-      "2022-11-03": 9
+      "2023-03-26": 13
     }
   },
   {
@@ -100,13 +98,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 85,
-    "timeDay": 65,
-    "timeWeek": 90,
-    "timeMonth": 77,
+    "timeDay": 54,
+    "timeWeek": 88,
+    "timeMonth": 76,
     "timeYear": 83,
-    "dailyMinutesDown": {
-      "2022-11-03": 9
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Cloaked Search demo",
@@ -114,22 +110,21 @@
     "icon": "https://icons.duckduckgo.com/ip3/cloaked-search.ironcorelabs.com.ico",
     "slug": "cloaked-search-demo",
     "status": "up",
-    "uptime": "98.05%",
+    "uptime": "98.06%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 164,
-    "timeDay": 138,
-    "timeWeek": 166,
-    "timeMonth": 164,
+    "timeDay": 152,
+    "timeWeek": 156,
+    "timeMonth": 166,
     "timeYear": 162,
     "dailyMinutesDown": {
       "2023-09-20": 6,
       "2023-07-12": 147,
       "2023-04-03": 4,
-      "2023-01-25": 8,
-      "2022-11-03": 9
+      "2023-01-25": 8
     }
   },
   {
@@ -145,8 +140,8 @@
     "uptimeYear": "99.96%",
     "time": 174,
     "timeDay": 204,
-    "timeWeek": 159,
-    "timeMonth": 151,
+    "timeWeek": 165,
+    "timeMonth": 152,
     "timeYear": 175,
     "dailyMinutesDown": {
       "2023-09-20": 12,
@@ -155,8 +150,7 @@
       "2023-04-03": 4,
       "2023-03-24": 6,
       "2023-01-24": 6,
-      "2023-01-23": 7,
-      "2022-11-03": 9
+      "2023-01-23": 7
     }
   },
   {
@@ -165,15 +159,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/saas-shield-for-s3-demo.ironcorelabs.com.ico",
     "slug": "saa-s-shield-for-s3-demo",
     "status": "up",
-    "uptime": "98.89%",
+    "uptime": "98.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 189,
-    "timeDay": 256,
+    "timeDay": 204,
     "timeWeek": 227,
-    "timeMonth": 178,
+    "timeMonth": 183,
     "timeYear": 187,
     "dailyMinutesDown": {}
   }
