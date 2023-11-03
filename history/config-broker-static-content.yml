@@ -1,7 +1,7 @@
 url: https://config.ironcorelabs.com/static/manifest.json
-status: down
-code: 409
-responseTime: 7
-lastUpdated: 2023-11-03T23:23:37.995Z
+status: up
+code: 200
+responseTime: 85
+lastUpdated: 2023-11-03T23:30:11.759Z
 startTime: 2022-07-18T22:18:16.000Z
 generator: Upptime <https://github.com/upptime/upptime>
