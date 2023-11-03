@@ -1,7 +1,7 @@
 url: https://config.ironcorelabs.com/health
-status: down
-code: 409
-responseTime: 43
-lastUpdated: 2023-11-03T23:23:36.134Z
+status: up
+code: 200
+responseTime: 111
+lastUpdated: 2023-11-03T23:30:08.418Z
 startTime: 2022-07-18T22:18:15.000Z
 generator: Upptime <https://github.com/upptime/upptime>
