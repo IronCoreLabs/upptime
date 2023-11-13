@@ -11,10 +11,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 151,
-    "timeDay": 149,
-    "timeWeek": 126,
-    "timeMonth": 122,
-    "timeYear": 144,
+    "timeDay": 136,
+    "timeWeek": 118,
+    "timeMonth": 124,
+    "timeYear": 143,
     "dailyMinutesDown": {
       "2023-09-21": 9
     }
@@ -31,9 +31,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 216,
-    "timeDay": 190,
+    "timeDay": 188,
     "timeWeek": 187,
-    "timeMonth": 188,
+    "timeMonth": 189,
     "timeYear": 217,
     "dailyMinutesDown": {
       "2023-09-20": 9,
@@ -56,9 +56,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 172,
-    "timeDay": 211,
-    "timeWeek": 177,
-    "timeMonth": 179,
+    "timeDay": 137,
+    "timeWeek": 176,
+    "timeMonth": 177,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2023-03-26": 13
@@ -76,9 +76,9 @@
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 157,
-    "timeDay": 205,
-    "timeWeek": 182,
-    "timeMonth": 152,
+    "timeDay": 258,
+    "timeWeek": 191,
+    "timeMonth": 156,
     "timeYear": 156,
     "dailyMinutesDown": {
       "2023-11-03": 7,
@@ -99,9 +99,9 @@
     "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 84,
-    "timeDay": 49,
-    "timeWeek": 89,
-    "timeMonth": 76,
+    "timeDay": 82,
+    "timeWeek": 76,
+    "timeMonth": 77,
     "timeYear": 83,
     "dailyMinutesDown": {
       "2023-11-03": 7
@@ -113,15 +113,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/cloaked-search.ironcorelabs.com.ico",
     "slug": "cloaked-search-demo",
     "status": "up",
-    "uptime": "98.09%",
+    "uptime": "98.10%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 164,
-    "timeDay": 230,
-    "timeWeek": 167,
-    "timeMonth": 164,
+    "timeDay": 202,
+    "timeWeek": 178,
+    "timeMonth": 167,
     "timeYear": 163,
     "dailyMinutesDown": {
       "2023-09-20": 6,
@@ -142,9 +142,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 173,
-    "timeDay": 165,
-    "timeWeek": 140,
-    "timeMonth": 154,
+    "timeDay": 195,
+    "timeWeek": 150,
+    "timeMonth": 155,
     "timeYear": 175,
     "dailyMinutesDown": {
       "2023-09-20": 12,
@@ -168,10 +168,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 189,
-    "timeDay": 264,
-    "timeWeek": 216,
-    "timeMonth": 189,
-    "timeYear": 188,
+    "timeDay": 146,
+    "timeWeek": 200,
+    "timeMonth": 186,
+    "timeYear": 187,
     "dailyMinutesDown": {}
   }
 ]
