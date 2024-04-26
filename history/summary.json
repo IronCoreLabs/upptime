@@ -139,17 +139,19 @@
     "url": "https://saas-shield-for-s3-demo.ironcorelabs.com/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/saas-shield-for-s3-demo.ironcorelabs.com.ico",
     "slug": "saa-s-shield-for-s3-demo",
-    "status": "up",
+    "status": "down",
     "uptime": "99.19%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 185,
-    "timeDay": 73,
-    "timeWeek": 138,
+    "time": 184,
+    "timeDay": 125,
+    "timeWeek": 143,
     "timeMonth": 194,
     "timeYear": 181,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-26": 0
+    }
   }
 ]
