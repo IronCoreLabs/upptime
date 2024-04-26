@@ -1,7 +1,7 @@
 url: https://saas-shield-for-s3-demo.ironcorelabs.com/healthz
-status: up
-code: 200
-responseTime: 73
-lastUpdated: 2024-04-25T23:03:45.436Z
+status: down
+code: 503
+responseTime: 177
+lastUpdated: 2024-04-26T15:45:00.487Z
 startTime: 2022-07-18T22:18:19.000Z
 generator: Upptime <https://github.com/upptime/upptime>
