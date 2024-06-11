@@ -13,11 +13,10 @@
 # * Docs and more: https://upptime.js.org
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
-
 name: Uptime CI
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/05 * * * *"
   repository_dispatch:
     types: [uptime]
   workflow_dispatch:
