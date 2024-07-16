@@ -1,7 +1,7 @@
 url: https://search-service.ironcorelabs.com/wikipedia_v2/_search?size=0
-status: down
-code: 503
-responseTime: 226
-lastUpdated: 2024-07-16T21:47:19.385Z
+status: up
+code: 200
+responseTime: 150
+lastUpdated: 2024-07-16T21:53:16.927Z
 startTime: 2022-07-18T22:18:18.000Z
 generator: Upptime <https://github.com/upptime/upptime>
