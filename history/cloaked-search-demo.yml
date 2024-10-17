@@ -1,7 +1,7 @@
 url: https://cloaked-search.ironcorelabs.com/_cloaked_search/live
-status: up
-code: 200
-responseTime: 194
-lastUpdated: 2024-10-17T05:36:48.056Z
+status: down
+code: 503
+responseTime: 276
+lastUpdated: 2024-10-17T11:35:54.311Z
 startTime: 2022-07-18T22:18:17.000Z
 generator: Upptime <https://github.com/upptime/upptime>
