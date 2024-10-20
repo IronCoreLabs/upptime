@@ -42,18 +42,20 @@
     "url": "https://admin.ironcorelabs.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/admin.ironcorelabs.com.ico",
     "slug": "admin-console",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 172,
-    "timeDay": 223,
-    "timeWeek": 204,
-    "timeMonth": 202,
-    "timeYear": 174,
-    "dailyMinutesDown": {}
+    "timeDay": 233,
+    "timeWeek": 209,
+    "timeMonth": 203,
+    "timeYear": 175,
+    "dailyMinutesDown": {
+      "2024-10-20": 0
+    }
   },
   {
     "name": "Config Broker",
