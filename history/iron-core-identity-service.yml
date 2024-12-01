@@ -1,7 +1,7 @@
 url: https://api.ironcorelabs.com/api/health
-status: down
-code: 503
-responseTime: 161
-lastUpdated: 2024-12-01T20:23:47.914Z
+status: up
+code: 200
+responseTime: 329
+lastUpdated: 2024-12-01T20:31:55.113Z
 startTime: 2022-07-18T22:18:13.000Z
 generator: Upptime <https://github.com/upptime/upptime>
