@@ -2,22 +2,16 @@ owner: IronCoreLabs
 repo: upptime
 
 sites:
-  - name: Web site
-    url: https://ironcorelabs.com/
-  - name: IronCore Identity service
-    url: https://api.ironcorelabs.com/api/health
-  - name: Admin Console
-    url: https://admin.ironcorelabs.com/api/health
-  - name: Config Broker
-    url: https://config.ironcorelabs.com/health
-  - name: Config Broker (static content)
-    url: https://config.ironcorelabs.com/static/manifest.json
-  - name: Cloaked Search demo
-    url: https://cloaked-search.ironcorelabs.com/_cloaked_search/live
-  - name: Cloaked Search demo (backend search service)
-    url: https://search-service.ironcorelabs.com/wikipedia_v2/_search?size=0
-  - name: SaaS Shield for S3 demo
-    url: https://saas-shield-for-s3-demo.ironcorelabs.com/healthz
+- name: Web site
+  url: https://ironcorelabs.com/
+- name: IronCore Identity service
+  url: https://api.ironcorelabs.com/api/health
+- name: Admin Console
+  url: https://admin.ironcorelabs.com/api/health
+- name: Config Broker
+  url: https://config.ironcorelabs.com/health
+- name: Config Broker (static content)
+  url: https://config.ironcorelabs.com/static/manifest.json
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -27,10 +21,10 @@ status-website:
   introTitle: "IronCore Labs status page"
   introMessage: ""
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  - title: Status
+    href: /
+  - title: GitHub
+    href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
