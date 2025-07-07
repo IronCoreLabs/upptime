@@ -18,5 +18,5 @@ During that time, admins won't be able to access the Config Broker UI, and new T
 <!--
 start: <specify start time - for example 2025-04-06T18:00:00+00:00>
 end: <specify end time - for example 2025-04-06T18:30:00+00:00>
-expectedDown: <specify service names - for example admin-console,cloaked-search-demo,cloaked-search-demo-backend-search-service,config-broker,config-broker-static-content,iron-core-identity-service,saa-s-shield-for-s3-demo>
+expectedDown: <specify service names - for example admin-console,config-broker,config-broker-static-content,iron-core-identity-service>
 -->
