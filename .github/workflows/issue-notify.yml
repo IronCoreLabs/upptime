@@ -35,7 +35,7 @@ jobs:
 
               echo "Marking reminder complete for issue #$ISSUE"
               gh issue comment $ISSUE --body "Slack reminder sent at $(date -u)"
-              gh issue remove-label $ISSUE slack-reminder
+              gh issue edit $ISSUE --remove-label "slack-reminder"
             else
               echo "Not yet 24h. Skipping."
             fi
