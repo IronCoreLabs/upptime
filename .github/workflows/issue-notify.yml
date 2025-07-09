@@ -17,18 +17,10 @@ jobs:
           for ISSUE in $ISSUES; do
             echo "Checking issue #$ISSUE..."
 
-            COMMENT=$(gh issue view $ISSUE --json comments --jq \
-              '.comments[] | select(.body | test("<!--slack-reminder-start-->")) | .body')
-
-            if [ -z "$COMMENT" ]; then
-              echo "No marker comment found. Skipping."
-              continue
-            fi
-
-            START=$(echo "$COMMENT" | grep "Reminder started at:" | cut -d: -f2- | xargs)
-            START_EPOCH=$(date -d "$START" +%s)
+            CREATED_AT=$(gh issue view $ISSUE --json createdAt --jq '.createdAt')
+            CREATED_EPOCH=$(date -d "$CREATED_AT" +%s)
             NOW_EPOCH=$(date -u +%s)
-            DIFF=$((NOW_EPOCH - START_EPOCH))
+            DIFF=$((NOW_EPOCH - CREATED_EPOCH))
 
             # TODO: Value lowered to 0 for testing
             # if [ "$DIFF" -ge 86400 ]; then
@@ -40,7 +32,7 @@ jobs:
                 ${{ secrets.SLACK_WEBHOOK_URL }}
 
               echo "Marking reminder complete for issue #$ISSUE"
-              gh issue comment $ISSUE --body "<!--slack-reminder-complete--> Follow-up sent at $(date -u)"
+              gh issue comment $ISSUE --body "Slack reminder sent at $(date -u)"
               gh issue remove-label $ISSUE slack-reminder
             else
               echo "Not yet 24h. Skipping."
