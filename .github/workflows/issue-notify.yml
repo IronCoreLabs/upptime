@@ -1,0 +1,50 @@
+name: Send Slack Message from Issue
+
+on:
+  schedule:
+    - cron: "*/15 * * * *" # Every 15 minutes
+  workflow_dispatch:
+
+jobs:
+  repeat:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write # required to comment and read issues
+    steps:
+      - name: Repeat reminders if 24h elapsed
+        run: |
+          ISSUES=$(gh issue list --label "slack-reminder" --state open --json number --jq '.[].number')
+          for ISSUE in $ISSUES; do
+            echo "Checking issue #$ISSUE..."
+
+            COMMENT=$(gh issue view $ISSUE --json comments --jq \
+              '.comments[] | select(.body | test("<!--slack-reminder-start-->")) | .body')
+
+            if [ -z "$COMMENT" ]; then
+              echo "No marker comment found. Skipping."
+              continue
+            fi
+
+            START=$(echo "$COMMENT" | grep "Reminder started at:" | cut -d: -f2- | xargs)
+            START_EPOCH=$(date -d "$START" +%s)
+            NOW_EPOCH=$(date -u +%s)
+            DIFF=$((NOW_EPOCH - START_EPOCH))
+
+            # TODO: Value lowered to 0 for testing
+            # if [ "$DIFF" -ge 86400 ]; then
+            if [ "$DIFF" -ge 0 ]; then
+              echo "Sending notification for issue #$ISSUE"
+
+              curl -X POST -H 'Content-type: application/json' \
+                --data "{\"text\":\"24 hour follow-up from downtime event #$ISSUE (https://github.com/IronCoreLabs/upptime/issues/$ISSUE). Please take action.\"}" \
+                ${{ secrets.SLACK_WEBHOOK_URL }}
+
+              echo "Marking reminder complete for issue #$ISSUE"
+              gh issue comment $ISSUE --body "<!--slack-reminder-complete--> Follow-up sent at $(date -u)"
+              gh issue remove-label $ISSUE slack-reminder
+            else
+              echo "Not yet 24h. Skipping."
+            fi
+          done
+        env:
+          GH_TOKEN: ${{ secrets.WORKFLOW_PAT }}
