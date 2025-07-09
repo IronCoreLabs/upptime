@@ -6,12 +6,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  repeat:
+  notify:
     runs-on: ubuntu-latest
     permissions:
       issues: write # required to comment and read issues
     steps:
-      - name: Repeat reminders if 24h elapsed
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Send reminder if 24h elapsed
         run: |
           ISSUES=$(gh issue list --label "slack-reminder" --state open --json number --jq '.[].number')
           for ISSUE in $ISSUES; do
