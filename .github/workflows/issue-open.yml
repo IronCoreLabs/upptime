@@ -1,13 +1,12 @@
-name: Slack Reminder on Issue Open
+name: Add Slack Reminder Label to Issue
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  post_reminder:
-    # TODO: Un-comment after testing
-    # if: github.event.issue.user.name == 'leeroy-travis'
+  add-issue-label:
+    if: github.event.issue.user.name == 'leeroy-travis'
     runs-on: ubuntu-latest
     steps:
       - name: Add tracking label
