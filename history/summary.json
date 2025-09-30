@@ -100,7 +100,7 @@
   },
   {
     "name": "Config Broker (static content)",
-    "url": "https://config.ironcorelabs.com/static/manifest.json",
+    "url": "https://config.ironcorelabs.com/static/kms/gcp/cryptoKey.png",
     "icon": "https://icons.duckduckgo.com/ip3/config.ironcorelabs.com.ico",
     "slug": "config-broker-static-content",
     "status": "up",
