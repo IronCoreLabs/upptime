@@ -29,10 +29,10 @@
     "url": "https://api.ironcorelabs.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.ironcorelabs.com.ico",
     "slug": "iron-core-identity-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 253,
@@ -41,6 +41,7 @@
     "timeMonth": 209,
     "timeYear": 219,
     "dailyMinutesDown": {
+      "2026-01-27": 1,
       "2025-12-05": 30,
       "2025-10-02": 6,
       "2025-04-10": 12,
@@ -55,10 +56,10 @@
     "url": "https://admin.ironcorelabs.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/admin.ironcorelabs.com.ico",
     "slug": "admin-console",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 211,
@@ -67,6 +68,7 @@
     "timeMonth": 197,
     "timeYear": 214,
     "dailyMinutesDown": {
+      "2026-01-27": 1,
       "2025-11-18": 129,
       "2025-08-13": 8
     }
@@ -76,18 +78,19 @@
     "url": "https://config.ironcorelabs.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/config.ironcorelabs.com.ico",
     "slug": "config-broker",
-    "status": "up",
+    "status": "down",
     "uptime": "99.67%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 203,
+    "time": 204,
     "timeDay": 122,
     "timeWeek": 218,
     "timeMonth": 170,
     "timeYear": 175,
     "dailyMinutesDown": {
+      "2026-01-27": 1,
       "2025-11-18": 123,
       "2025-09-18": 17,
       "2025-03-29": 9
@@ -98,9 +101,9 @@
     "url": "https://config.ironcorelabs.com/static/kms/aws/awsRegion.png",
     "icon": "https://icons.duckduckgo.com/ip3/config.ironcorelabs.com.ico",
     "slug": "config-broker-static-content",
-    "status": "up",
+    "status": "down",
     "uptime": "99.68%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
@@ -110,6 +113,7 @@
     "timeMonth": 35,
     "timeYear": 55,
     "dailyMinutesDown": {
+      "2026-01-27": 0,
       "2025-11-18": 123
     }
   }
