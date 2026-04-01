@@ -13,7 +13,7 @@ sites:
 - name: Config Broker (static content)
   url: https://config.ironcorelabs.com/static/kms/aws/awsRegion.png
 - name: Notification Test
-  url: https://httpstatuses.maor.io/200
+  url: https://httpstatuses.maor.io/500
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
