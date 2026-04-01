@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 155,
-    "timeDay": 99,
-    "timeWeek": 127,
-    "timeMonth": 142,
+    "timeDay": 113,
+    "timeWeek": 131,
+    "timeMonth": 143,
     "timeYear": 161,
     "dailyMinutesDown": {
       "2025-12-19": 10,
@@ -36,9 +36,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 218,
-    "timeDay": 193,
-    "timeWeek": 204,
-    "timeMonth": 204,
+    "timeDay": 191,
+    "timeWeek": 202,
+    "timeMonth": 203,
     "timeYear": 217,
     "dailyMinutesDown": {
       "2026-01-27": 12,
@@ -59,10 +59,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 210,
-    "timeDay": 191,
-    "timeWeek": 187,
-    "timeMonth": 208,
+    "time": 211,
+    "timeDay": 221,
+    "timeWeek": 202,
+    "timeMonth": 212,
     "timeYear": 213,
     "dailyMinutesDown": {
       "2026-01-27": 11,
@@ -82,9 +82,9 @@
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.97%",
     "time": 173,
-    "timeDay": 125,
-    "timeWeek": 140,
-    "timeMonth": 180,
+    "timeDay": 141,
+    "timeWeek": 147,
+    "timeMonth": 181,
     "timeYear": 174,
     "dailyMinutesDown": {
       "2026-03-25": 23,
@@ -104,34 +104,14 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 56,
-    "timeDay": 18,
-    "timeWeek": 36,
-    "timeMonth": 43,
+    "time": 55,
+    "timeDay": 27,
+    "timeWeek": 39,
+    "timeMonth": 44,
     "timeYear": 49,
     "dailyMinutesDown": {
       "2026-01-27": 11,
       "2025-11-18": 123
-    }
-  },
-  {
-    "name": "Notification Test",
-    "url": "https://httpstatuses.maor.io/500",
-    "icon": "https://icons.duckduckgo.com/ip3/httpstatuses.maor.io.ico",
-    "slug": "notification-test",
-    "status": "down",
-    "uptime": "30.91%",
-    "uptimeDay": "30.91%",
-    "uptimeWeek": "30.91%",
-    "uptimeMonth": "30.91%",
-    "uptimeYear": "30.91%",
-    "time": 78,
-    "timeDay": 78,
-    "timeWeek": 78,
-    "timeMonth": 78,
-    "timeYear": 78,
-    "dailyMinutesDown": {
-      "2026-04-01": 18
     }
   }
 ]
