@@ -120,18 +120,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/httpstatuses.maor.io.ico",
     "slug": "notification-test",
     "status": "down",
-    "uptime": "31.25%",
-    "uptimeDay": "31.25%",
-    "uptimeWeek": "31.25%",
-    "uptimeMonth": "31.25%",
-    "uptimeYear": "31.25%",
+    "uptime": "30.91%",
+    "uptimeDay": "30.91%",
+    "uptimeWeek": "30.91%",
+    "uptimeMonth": "30.91%",
+    "uptimeYear": "30.91%",
     "time": 78,
     "timeDay": 78,
     "timeWeek": 78,
     "timeMonth": 78,
     "timeYear": 78,
     "dailyMinutesDown": {
-      "2026-04-01": 17
+      "2026-04-01": 18
     }
   }
 ]
