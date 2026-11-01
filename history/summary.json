@@ -25,22 +25,22 @@
     "url": "https://api.ironcorelabs.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.ironcorelabs.com.ico",
     "slug": "iron-core-identity-service",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 205,
-    "timeDay": 103,
-    "timeWeek": 175,
-    "timeMonth": 180,
+    "timeDay": 143,
+    "timeWeek": 180,
+    "timeMonth": 181,
     "timeYear": 199,
     "dailyMinutesDown": {
       "2025-12-05": 30,
       "2026-01-27": 12,
       "2026-06-25": 0,
-      "2026-11-01": 1
+      "2026-11-01": 5
     }
   },
   {
